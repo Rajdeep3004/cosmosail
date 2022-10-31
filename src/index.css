@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.div {
+  @apply -z-10  text-white w-full h-screen;
+}
+
+.spaceship-div {
+  @apply -z-10 sticky top-0 w-full h-screen text-white text-center mb-28  
+  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 plus;
+}
+
+.spacesuit-div {
+  @apply -z-10 sticky top-0 w-full h-screen overflow-hidden  bg-black text-black text-center mb-28;
+}
+
+.child-div-spaceship {
+  @apply mb-28 -z-10 sticky top-0  grid grid-cols-2 tracking-[.30rem] md:tracking-[.35rem] lg:tracking-[.45rem] text-black bg-black text-center
+   text-sm md:text-2xl lg:text-4xl;
+}
+
+.child-div-spaceship-h1 {
+  @apply font-normal font-Raleway my-auto bg-clip-text text-transparent bg-gradient-to-r from-green-300 via-blue-500 to-purple-600;
+}
+
+.h1 {
+  @apply font-bold font-ElMessiri tracking-widest pt-8 pl-8 md:pt-16 md:pl-16 lg:pt-24 lg:pl-16 text-2xl md:text-6xl lg:text-7xl;
+}
+
+.h1-spaceship {
+  @apply font-ElMessiri tracking-widest text-3xl md:text-5xl lg:text-7xl pt-12;
+}
+
+.h1-spacesuit {
+  @apply font-ElMessiri tracking-[.45rem] text-3xl md:text-5xl lg:text-7xl mt-12 mb-20 lg:mb-10
+  bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-red-400 to-violet-600;
+}
+
+.h1-location {
+  @apply font-ElMessiri tracking-wide pt-8 md:pt-16 lg:pt-12 text-3xl md:text-5xl lg:text-7xl mb-20 md:mb-40 lg:mb-4
+  bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 via-sky-400 to-indigo-600;
+}
+
+.h1-review {
+  @apply font-ElMessiri tracking-wide pt-8 md:pt-16 lg:pt-12 text-3xl md:text-5xl lg:text-7xl 
+  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-blue-400 to-purple-600;
+}
+
+.p {
+  @apply font-normal font-Raleway tracking-[.20rem] md:tracking-[.32.5rem] lg:tracking-[.45rem] mx-4 
+  leading-7 text-center mt-24 text-sm md:text-2xl lg:text-4xl;
+}
+
+.p-home {
+  @apply absolute bottom-[22rem] left-6 md:bottom-[32rem] md:left-20 lg:bottom-[21rem] lg:left-56 2xl:bottom-[27rem] 2xl:left-48
+   font-extralight font-Raleway text-white tracking-[1.5rem] 2xl:tracking-[3rem] text-2xl md:text-7xl lg:text-9xl 2xl:text-[13rem];
+}
+
+.p-why {
+  @apply font-normal font-Raleway tracking-widest  md:tracking-[.35rem] lg:tracking-[.45rem]  mb-40 mx-4 lg:mb-28 text-sm md:text-xl lg:text-4xl;
+}
+
+.p-spacesuit {
+  @apply font-normal font-Raleway text-left h-screen tracking-[0.075rem] md:tracking-[0.20rem] lg:leading-8 my-16
+   text-xs md:text-xl lg:text-base 2xl:text-2xl mx-4 text-white;
+}
+
+.location-div {
+  @apply -z-0 sticky top-0 text-white w-full h-screen text-center mb-28 bg-black;
+}
+
+.review-div {
+  @apply z-10 sticky top-0 w-full h-screen bg-black text-center  mb-28;
+}
+
+.review-grid-div {
+  @apply font-normal font-Raleway grid grid-rows-3 md:grid-cols-3 mt-4 md:mt-64 lg:mt-48 text-white;
+}
+
+.review-inner-grid {
+  @apply px-12 border-b-4 border-r-0 md:border-b-0 md:border-r-4 border-blue-400;
+}
+
+.contact-div {
+  @apply z-10 sticky top-0 font-normal font-Raleway tracking-widest bg-black 
+     text-white w-full h-screen text-center text-2xl lg:text-4xl -mb-60;
+}
+
+.contact-img {
+  @apply w-10 h-10 inline-block mx-4 hover:scale-125 duration-500;
+}
+
+.plus {
+  background-size: 300%;
+  animation: gradient 20s infinite alternate;
+}
+
+.plus-two {
+  background-size: 300%;
+  animation: gradient 10s infinite alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: left;
+  }
+  25% {
+    background-position: right;
+  }
+  50% {
+    background-position: left;
+  }
+  75% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
