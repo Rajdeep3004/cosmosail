@@ -10,9 +10,11 @@ const Home = () => {
           <source src={video} type="video/mp4" />
         </video>
       </div>
-      <Fade>
-        <p className="p-home ">COSMOSAIL</p>
-      </Fade>
+      <div className="flex justify-center items-center">
+        <Fade>
+          <p className="p-home ">&nbsp;COSMOSAIL</p>
+        </Fade>
+      </div>
     </Fragment>
   );
 };
