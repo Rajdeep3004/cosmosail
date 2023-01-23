@@ -19,7 +19,7 @@ html {
 }
 
 .spacesuit-div {
-  @apply -z-10 sticky top-0 w-full h-screen overflow-hidden  bg-black text-black text-center mb-28;
+  @apply -z-10 sticky top-0 w-full h-screen overflow-hidden  bg-white text-black text-center mb-28;
 }
 
 .child-div-spaceship {
@@ -28,7 +28,7 @@ html {
 }
 
 .child-div-spaceship-h1 {
-  @apply font-normal font-Raleway my-auto bg-clip-text text-transparent bg-gradient-to-r from-green-300 via-blue-500 to-purple-600;
+  @apply font-normal font-Raleway my-auto text-white;
 }
 
 .h1 {
@@ -40,18 +40,17 @@ html {
 }
 
 .h1-spacesuit {
-  @apply font-ElMessiri tracking-[.45rem] text-3xl md:text-5xl lg:text-7xl mt-12 mb-20 lg:mb-10
-  bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-red-400 to-violet-600;
+  @apply font-ElMessiri tracking-[.45rem] text-3xl md:text-5xl lg:text-7xl mt-12 mb-16 lg:mb-10;
 }
 
 .h1-location {
   @apply font-ElMessiri tracking-wide pt-8 md:pt-16 lg:pt-12 text-3xl md:text-5xl lg:text-7xl mb-20 md:mb-40 lg:mb-4
-  bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 via-sky-400 to-indigo-600;
+  text-white;
 }
 
 .h1-review {
   @apply font-ElMessiri tracking-wide pt-8 md:pt-16 lg:pt-12 text-3xl md:text-5xl lg:text-7xl 
-  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-blue-400 to-purple-600;
+  text-black;
 }
 
 .p {
@@ -69,8 +68,8 @@ html {
 }
 
 .p-spacesuit {
-  @apply font-normal font-Raleway text-left h-screen tracking-[0.075rem] md:tracking-[0.20rem] lg:leading-8 my-16
-   text-xs md:text-xl lg:text-base 2xl:text-2xl mx-4 text-white;
+  @apply font-normal font-Raleway text-left h-screen tracking-[0.075rem] md:tracking-[0.20rem] leading-6 md:leading-6 lg:leading-8 my-16
+   text-xs lg:text-sm 2xl:text-2xl mx-4;
 }
 
 .location-div {
@@ -78,20 +77,16 @@ html {
 }
 
 .review-div {
-  @apply z-10 sticky top-0 w-full h-screen bg-black text-center  mb-28;
+  @apply z-10 sticky top-0 w-full h-screen bg-white text-center  mb-28;
 }
 
-.review-grid-div {
-  @apply font-normal font-Raleway grid grid-rows-3 md:grid-cols-3 mt-4 md:mt-64 lg:mt-48 text-white;
-}
-
-.review-inner-grid {
-  @apply px-12 border-b-4 border-r-0 md:border-b-0 md:border-r-4 border-blue-400;
+.review-inner-div {
+  @apply font-normal font-Raleway mt-16 md:mt-32 lg:mt-20 text-black;
 }
 
 .contact-div {
-  @apply z-10 sticky top-0 font-normal font-Raleway tracking-widest bg-black 
-     text-white w-full h-screen text-center text-2xl lg:text-4xl -mb-60;
+  @apply z-10 sticky top-0 font-normal font-Raleway tracking-widest bg-white
+ w-full h-screen text-center text-2xl lg:text-4xl -mb-60;
 }
 
 .contact-img {

@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-import spacesuit from "../assets/spacesuit.jpg";
+import spacesuit from "../assets/spacesuit.png";
 import Header from "./Header";
 
 const Spacesuit = () => {
@@ -14,28 +14,37 @@ const Spacesuit = () => {
       <Fade right>
         <img
           alt="spacesuit"
-          className="w-1/2 lg:w-1/4 h-[15rem] md:h-[30rem] 2xl:h-[50rem] float-right mr-4"
+          className="w-1/2 lg:w-1/3 h-[15rem] md:h-[30rem] 2xl:h-[50rem] float-right mr-4"
           src={spacesuit}
         />
       </Fade>
       <Fade left>
-        <p className="p-spacesuit">
-          The materials used in our suits are of supreme quality & consist
-          different layers. The layers perform different functions, from keeping
-          oxygen within the spacesuit to protecting from space dust. Closest to
-          the astronaut's skin, the cooling garment makes up the first three
-          layers. On top of this garment is a layer that is filled with gas to
-          create proper pressure for the body and holds in the oxygen for
-          breathing. The ripstop liner is a tear-resistant layer. The next
-          several layers are insulation and act like a thermos to help maintain
-          the temperature inside the suit. The white outer layer reflects heat
-          from the sunlight and is made of a fabric that blends three kinds of
-          threads. One thread provides water resistance, another is the material
-          used to make bullet-proof vests, and the third component is
-          fire-resistant. The integrated communication system has speakers
-          mounted inside the helmet area and multiple embedded voice-activated
-          microphones that automatically pick up the wearer's voice.
-        </p>
+        <div className="p-spacesuit">
+          <span className="block">
+            The materials used in our suits are of supreme quality & consist
+            different layers.
+          </span>
+          <span>
+            <span className="block mt-4">-1/4</span> Protects from space dust. It is
+            filled with gas to create proper pressure for the body and holds in
+            the oxygen for breathing.
+          </span>
+          <span>
+            <span className="block mt-4">--2/4</span>
+            The ripstop liner is a tear-resistant layer. It consist
+            communication systems.
+          </span>
+          <span>
+            <span className="block mt-4">---3/4</span>
+            This layer consist insulation and act like a thermos to help
+            maintain the temperature inside the suit.
+          </span>
+          <span>
+            <span className="block mt-4">----4/4</span>
+            The outer layer reflects heat from the sunlight & is water
+            resistant.
+          </span>
+        </div>
       </Fade>
     </div>
   );
