@@ -14,7 +14,7 @@ const Spacesuit = () => {
       <Fade right>
         <img
           alt="spacesuit"
-          className="w-1/2 lg:w-1/3 h-[15rem] md:h-[30rem] 2xl:h-[50rem] float-right mr-4 rounded-full"
+          className="w-1/2 lg:w-1/4 h-[15rem] md:h-[30rem] 2xl:h-[50rem] float-right mr-4"
           src={spacesuit}
         />
       </Fade>
