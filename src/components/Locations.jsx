@@ -28,7 +28,7 @@ const Locations = () => {
             showStatus={false}
           >
             <div>
-              <p className="font-Raleway py-4">Aquila- 6B</p>
+              <p className="font-Raleway py-4 ">Aquila- 6B</p>
               <img src={planet1} className="rounded" />
             </div>
             <div>
