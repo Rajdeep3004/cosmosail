@@ -30,6 +30,20 @@ html {
   @apply font-normal font-Raleway my-auto text-white text-xs md:text-sm lg:text-base;
 }
 
+.location-div {
+  @apply -z-0 sticky top-0 text-black w-full h-screen text-center mb-28 bg-white;
+}
+
+.review-div {
+  @apply z-10 sticky top-0 w-full h-screen bg-white text-center mb-28  
+  grid grid-cols-4 text-sm md:text-xl lg:text-3xl;
+}
+
+.contact-div {
+  @apply z-10 sticky top-0 font-normal font-Raleway tracking-widest bg-white
+ w-full h-screen text-center text-2xl lg:text-4xl -mb-60;
+}
+
 .h1 {
   @apply font-bold font-ElMessiri tracking-widest pt-8 pl-8 md:pt-16 md:pl-16 lg:pt-24 lg:pl-16 text-2xl md:text-6xl lg:text-7xl;
 }
@@ -44,7 +58,7 @@ html {
 
 .h1-location {
   @apply font-ElMessiri tracking-wide pt-8 md:pt-16 lg:pt-12 text-sm md:text-xl lg:text-3xl mb-20 md:mb-40 lg:mb-4
-  text-white;
+  text-black;
 }
 
 .h1-review {
@@ -67,22 +81,13 @@ html {
 }
 
 .p-spacesuit {
-  @apply font-normal font-Raleway h-screen tracking-[0.075rem] md:tracking-[0.20rem] leading-4 md:leading-6 lg:leading-8 mt-6 md:mt-auto
+  @apply font-normal font-Raleway h-screen tracking-[0.075rem] md:tracking-[0.20rem] leading-4 md:leading-6 lg:leading-7 mt-6 md:mt-auto
   text-xs md:text-sm lg:text-base 2xl:text-2xl mx-4;
 }
 
-.location-div {
-  @apply -z-0 sticky top-0 text-white w-full h-screen text-center mb-28 bg-black;
-}
-
-.review-div {
-  @apply z-10 sticky top-0 w-full h-screen bg-white text-center mb-28  
-  grid grid-cols-4 text-sm md:text-xl lg:text-3xl;
-}
-
-.contact-div {
-  @apply z-10 sticky top-0 font-normal font-Raleway tracking-widest bg-white
- w-full h-screen text-center text-2xl lg:text-4xl -mb-60;
+.p-location {
+  @apply font-normal font-Raleway tracking-[0.15rem] md:tracking-[0.3rem] mx-14
+   leading-8 md:leading-[3rem] lg:leading-[5rem] text-center text-xs md:text-sm lg:text-base;
 }
 
 .contact-img {

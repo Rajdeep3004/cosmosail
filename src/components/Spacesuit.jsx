@@ -7,7 +7,6 @@ import Header from "./Header";
 const Spacesuit = () => {
   return (
     <div className="spacesuit-div ">
-      <Header />
       <Zoom cascade>
         <h1 className="h1-spacesuit ">All geared up</h1>
       </Zoom>

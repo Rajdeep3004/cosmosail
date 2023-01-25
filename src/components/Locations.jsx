@@ -5,19 +5,55 @@ import star1 from "../assets/star1.png";
 import planets2 from "../assets/planets2.jpg";
 import bhole from "../assets/bhole.jpg";
 import planet3 from "../assets/planet3.jpg";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-import Header from "./Header";
 
 const Locations = () => {
   return (
     <div className="location-div">
-      <Header/>
       <Zoom cascade>
         <h1 className="h1-location">Top rated locations</h1>
 
-        <div className="grid justify-items-center">
-          <Zoom>
+        <div className="grid md:mt-36 lg:grid-cols-2">
+          <div className="p-location">
+            Our top rated locations are chosen buy both our users & team, will give
+            you an experience like no other.
+          </div>
+          <div className="mt-[25%] md:mt-[25%] lg:mt-0 mx-[4%] md:mx-[16%] lg:mx-4">
+            <img
+              alt="planet"
+              src={planet1}
+              className="w-36 md:w-60 lg:w-80 rounded-lg skew-y-6 hover:z-50 hover:scale-125 duration-700"
+            />
+            <img
+              alt="planet"
+              src={planets2}
+              className="w-36 md:w-60 lg:w-80 rounded-lg absolute top-2 translate-x-28 skew-y-6 -z-10 hover:z-50 hover:scale-125 duration-700"
+            />
+            <img
+              alt="planet"
+              src={bhole}
+              className="w-36 md:w-60 lg:w-80 rounded-lg absolute top-2 translate-x-48 md:translate-x-40 skew-y-6 -z-20 hover:z-50 hover:scale-125 duration-700"
+            />
+            <img
+              alt="planet"
+              src={star1}
+              className="w-36 md:w-60 lg:w-80 rounded-lg mt-4 md:mt-0  md:absolute top-2 translate-x-12 md:translate-x-52 skew-y-6 -z-30 hover:z-50 hover:scale-125 duration-700"
+            />
+            <img
+              alt="planet"
+              src={planet3}
+              className="w-36 md:w-60 lg:w-80 rounded-lg mt-4 md:mt-0 absolute top-20 md:top-2 translate-x-36 md:translate-x-72 skew-y-6 -z-40 hover:z-50 hover:scale-125 duration-700"
+            />
+          </div>
+        </div>
+      </Zoom>
+    </div>
+  );
+};
+
+export default Locations;
+
+/* 
+<Zoom>
           <Carousel
             className="max-w-[20rem] md:max-w-2xl lg:max-w-3xl 2xl:max-w-5xl"
             infiniteLoop
@@ -48,10 +84,5 @@ const Locations = () => {
               <img src={bhole} className="rounded" />
             </div>
           </Carousel></Zoom>
-        </div>
-      </Zoom>
-    </div>
-  );
-};
 
-export default Locations;
+*/
