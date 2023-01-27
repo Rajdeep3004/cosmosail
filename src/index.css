@@ -57,7 +57,7 @@ html {
 }
 
 .h1-location {
-  @apply font-ElMessiri tracking-wide pt-8 md:pt-16 lg:pt-12 text-sm md:text-xl lg:text-3xl mb-20 md:mb-40 lg:mb-4
+  @apply font-ElMessiri tracking-wide pt-32 text-sm md:text-xl lg:text-3xl mb-20 md:mb-40 lg:mb-4
   text-black;
 }
 

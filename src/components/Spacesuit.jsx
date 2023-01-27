@@ -8,14 +8,14 @@ const Spacesuit = () => {
   return (
     <div className="spacesuit-div ">
       <Zoom cascade>
-        <h1 className="h1-spacesuit ">All geared up</h1>
+        <h1 className="h1-spacesuit ">All Geared Up</h1>
       </Zoom>
       <div className="grid md:grid-cols-2 overflow-scroll">
         <div>
           <Fade right>
             <img
               alt="spacesuit"
-              className="h-[10rem] md:h-[30rem] 2xl:h-[50rem] mx-auto "
+              className="h-[10rem] md:h-[30rem] 2xl:h-[50rem] mx-auto  "
               src={spacesuit}
             />
           </Fade>

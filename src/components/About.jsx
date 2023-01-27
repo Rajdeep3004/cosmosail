@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="div">
       {" "}
-      <h1 className="h1">Voyage to the stars</h1>
+      <h1 className="h1">Voyage To The Stars</h1>
       <p className="p">
         We at Cosmosail provide space adventures to all our customers. Whether
         you just want a peek in the space or full blown rides across the galaxy,

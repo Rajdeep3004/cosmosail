@@ -10,7 +10,7 @@ const Locations = () => {
   return (
     <div className="location-div">
       <Zoom cascade>
-        <h1 className="h1-location">Top rated locations</h1>
+        <h1 className="h1-location">Witeness Beauty</h1>
 
         <div className="grid md:mt-36 lg:grid-cols-2">
           <div className="p-location">
@@ -41,7 +41,7 @@ const Locations = () => {
             <img
               alt="planet"
               src={planet3}
-              className="w-36 md:w-60 lg:w-80 rounded-lg mt-4 md:mt-0 absolute top-20 md:top-2 translate-x-36 md:translate-x-72 skew-y-6 -z-40 hover:z-50 hover:scale-125 duration-700"
+              className="w-36 md:w-60 lg:w-80 rounded-lg mt-4 md:mt-0 absolute top-20 md:top-2 translate-x-[9.5rem] md:translate-x-72 skew-y-6 -z-40 hover:z-50 hover:scale-125 duration-700"
             />
           </div>
         </div>

@@ -10,7 +10,7 @@ const Spaceship = () => {
     <Fragment>
       <div className="spaceship-div">
         <Zoom>
-          <h1 className="h1-spaceship">Best rides in business</h1>
+          <h1 className="h1-spaceship">Best Rides In Business</h1>
           <p className="p">
             Our ships are equipped with all necessary features for space travels
             such as systems to live and breathe, proper propulsion, the ability
@@ -21,6 +21,10 @@ const Spaceship = () => {
       </div>
 
       <div className="child-div-spaceship">
+        {" "}
+        <Zoom cascade>
+          <h1 className="child-div-spaceship-h1">go with a team..</h1>
+        </Zoom>{" "}
         <Fade left>
           <div>
             <img
@@ -29,15 +33,9 @@ const Spaceship = () => {
               src={largership}
             />
           </div>
-        </Fade>{" "}
-        <Zoom cascade>
-          <h1 className="child-div-spaceship-h1">go with a team..</h1>
-        </Zoom>
+        </Fade>
       </div>
       <div className="child-div-spaceship">
-        <Zoom cascade>
-          <h1 className="child-div-spaceship-h1">or go solo !!</h1>
-        </Zoom>
         <Fade right>
           <div>
             <img
@@ -47,6 +45,9 @@ const Spaceship = () => {
             />
           </div>
         </Fade>
+        <Zoom cascade>
+          <h1 className="child-div-spaceship-h1">or go solo !!</h1>
+        </Zoom>
       </div>
     </Fragment>
   );
