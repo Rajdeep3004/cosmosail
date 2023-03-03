@@ -53,11 +53,11 @@ html {
 }
 
 .h1-spacesuit {
-  @apply font-ElMessiri tracking-[.45rem] text-sm md:text-xl lg:text-3xl mt-12 mb-12 lg:mb-10;
+  @apply font-ElMessiri tracking-widest text-sm md:text-xl lg:text-3xl mt-12 mb-12 lg:mb-10;
 }
 
 .h1-location {
-  @apply font-ElMessiri tracking-wide pt-32 text-sm md:text-xl lg:text-3xl mb-20 md:mb-40 lg:mb-4
+  @apply font-ElMessiri tracking-widest pt-32 text-sm md:text-xl lg:text-3xl mb-20 md:mb-40 lg:mb-4
   text-black;
 }
 

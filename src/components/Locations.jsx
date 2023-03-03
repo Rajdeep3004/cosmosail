@@ -17,7 +17,7 @@ const Locations = () => {
             Our top rated locations are chosen buy both our users & team, will give
             you an experience like no other.
           </div>
-          <div className="mt-[25%] md:mt-[25%] lg:mt-0 mx-[4%] md:mx-[16%] lg:mx-4">
+          <div className="mt-[25%] lg:mt-0 mx-[4%] md:mx-[16%] lg:mx-4">
             <img
               alt="planet"
               src={planet1}

@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contact-div">
       <Header />
       <Jump>
-        <p className="pt-32">Contact</p>
+        <p className="pt-32 tracking-widest">Contact</p>
         <div className="mt-40 hover:cursor-pointer">
           {" "}
           <svg
